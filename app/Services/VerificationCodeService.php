@@ -11,6 +11,7 @@ class VerificationCodeService
     protected $verificationCodeRepository;
 
     /**
+     * Dependency Injection тут я использую паттерн, позволяющий инъектировать зависимости
      * @param VerificationCodeRepository $verificationCodeRepository
      */
     public function __construct(VerificationCodeRepository $verificationCodeRepository)
